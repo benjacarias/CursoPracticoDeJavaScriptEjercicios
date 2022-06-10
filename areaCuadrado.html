@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background: black;">
+        <h1 style="text-align: center; color: white;">Figuras Geometricas</h1>
+    </header>
+
+    <section>
+        <h2>Calcula Area y Perimetro de un Cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">Ingresa cuanto mide cada lado de tu cuadrado</label>
+            <input id="InputCuadrado" type="number"/>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+        </form>
+        <h2>Calcular Perimetro de un Triangulo</h2>
+        <form>
+            <label for="primer">Ingresa el primer lado del triangulo</label>
+            <input type="number" id="primer">
+            <label for="second">Ingresa el segundo lado del triangulo</label>
+            <input type="number" id="second">
+            <label for="base">Ingresa la base del triangulo</label>
+            <input type="number" id="base">
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+        </form>
+    </section>
+    
+    <script src="funciones.js"></script>
+</body>
+</html>

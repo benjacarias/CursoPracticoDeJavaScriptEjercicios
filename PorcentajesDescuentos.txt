@@ -1,0 +1,14 @@
+//Como calcular porcentaje y descuentos
+
+//Formula para calcular Descuento
+
+[PrecioOriginal * (100% - Descuento%)]
+______________________________________
+                100
+
+En JavaScript Seria
+
+var PrecioOriginal = 200;
+var Descuento = 15;
+
+var Descuento = [PrecioOriginal * (100 - Descuento)] / 100;

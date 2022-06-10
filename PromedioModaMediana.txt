@@ -1,0 +1,27 @@
+//Promedio, Moda, Mediana
+
+
+<!--Promedio o Media Aritmetica-->
+
+*Consiste en sumar todos los numeros y luego
+*Dividir el resultado entre la cantidad 
+*de numeros sumados.
+
+<!--Ejemplo: -->
+
+500 + 300 + 600
+_______________
+       3
+
+<!--Mediana-->
+
+*La mediana es un conjunto es un valor que se
+*encuentra a la mitad de los otros valores,es 
+*decir, que al ordenar los número de menor a 
+*mayor, éste se encuentra justamente en medio 
+*entre los que están por arriba.
+
+<!--Moda-->
+
+*Este es el dato que mas
+*se repite en un conjunto de datos
